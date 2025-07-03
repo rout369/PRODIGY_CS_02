@@ -75,11 +75,25 @@ Used for:
 
     User-friendly password prompt and real-time decryption/encryption.
 
-🛠️ Technologies Used
-Library	Purpose
-Pillow	Image loading and manipulation
-hashlib	Password hashing (SHA-256)
-random	Fisher-Yates shuffle
-tkinter	GUI for multiple file selection
-pyfiglet	ASCII banner in CLI
-termcolor + colorama	Colored CLI output
+🚀 How to Run
+✅ CLI Mode (Single Image)
+
+python img_enc_dec.py
+
+Follow prompts to:
+
+    Enter file path
+
+    Enter password
+
+    Choose encrypt or decrypt
+
+✅ GUI Mode (Multiple Images)
+
+When prompted, select multiple files using the file picker.
+
+    Enter password
+
+    Automatically encrypts/decrypts in batch
+
+
